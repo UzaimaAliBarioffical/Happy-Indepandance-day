@@ -29,20 +29,20 @@
 
 function countDown() {
   setInterval(function () {
-    let date = new Date("august 14 ,2024,12:00:00");
+    let date = new Date("august 14 ,2024, 00:00:00");
     let currentDate = new Date().getTime();
     let subtract = date - currentDate;
 
     let days = Math.floor(subtract / (1000 * 60 * 60 * 24));
-    document.getElementById("day").innerHTML = days + "<br>" + "days";
+    document.getElementById("day").innerHTML = days ;
     let hr = Math.floor((subtract % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    document.getElementById("hr").innerHTML = hr + "<br>" + "hours";
+    document.getElementById("hr").innerHTML = hr;
 
     let min = Math.floor((subtract % (1000 * 60 * 60)) / (1000 * 60));
-    document.getElementById("min").innerHTML = min + "<br>" + "minutes";
+    document.getElementById("min").innerHTML = min ;
 
-    let sec = Math.floor((subtract % (1000 * 60)) / 1000);
-    document.getElementById("sec").innerHTML = sec + "<br>" + "seconds";
+    let sec = Math.floor((subtract % (1000 * 60)) / (1000));
+    document.getElementById("sec").innerHTML = sec ;
   }, 1000);
 }
-// countDown();
+countDown();

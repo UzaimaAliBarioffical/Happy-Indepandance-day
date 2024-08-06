@@ -10,17 +10,16 @@
 
 <body>
 
-    <h1>Happy <span> Idependence </span>Day </h1>
+    <h1>Happy <span> Idependence </span> <span class="hea-day">Day</span> </h1>
 
     <div id="main">
-        <h3 id="day">0</h3>
-        <h3 id="hr">0</h3>
-        <h3 id="min">0</h3>
-        <h3 id="sec">0</h3>
+ 
+        <h3 class=" day-wrapper" >Day <p id="day"> </p> </h3>
+        <h3 class="hour-wrapper "> Hours<p  id="hr"></p></h3>
+        <h3 class="min-wrapper" > Minutes<p id="min"></p></h3>
+        <h3 class="sec-wrapper" >Seconds <p id="sec"></p></h3>
     </div>
-    <div id=" but">
-        <button onclick="countDown()">Start Countdown</button>
-    </div>
+
     <script src="app.js"></script>
 </body>
 

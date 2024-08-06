@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(./image/ilove.gif
+    background-image: url(./image/pakistan.jpg
 );
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -15,46 +15,146 @@ body {
 
 h1 {
     text-align: center;
-    color: #17b017;
+    color: #ffffff;
     margin-top: 2em;
-    text-shadow: 2px 2px 5PX #ffffffd7;
+    text-shadow: 2px 2px 5PX #178943;
+    font-size: 3rem;
 }
 
 span {
-    color: #ffffffd7;
-    text-shadow: 2px 2px 5PX #17b017;
+    color: #178943;
+    text-shadow: 2px 2px 5PX #b6ee82;
 
 }
-
+.hea-day{
+    color: #178943;
+    text-shadow: 2px 2px 5PX #b6ee82;
+}
 #main {
     display: flex;
-    justify-content: end;
-
+    justify-content: center;
+margin-top:14em ;
 }
 
 h3 {
-    color: #ffffffd7;
-    font-size: 30px;
-    position: relative;
-    top: 10em;
+    color: hsla(0, 0%, 100%, 0.843);
+    font-size: 2rem;
+    /* position: relative; */
+    /* top: 10em; */
 
 
     margin: 0px 40px;
 
 }
+.day-wrapper{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 120px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: auto auto;
+    text-align: center;
+}
+#day {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #fff;
+}
+/* Day Section Close */
 
-button {
+/* For Hour Section */
+.hour-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 120px;
+    align-content: center;
+    color: #178943 ;
+    background: transparent;
+    backdrop-filter: blur(15px);
+
+    text-align: center;
+}
+#hr {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #ffffff ;
+}
+
+/* Hour Section Close */
+
+/* For Min Section */
+.min-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 120px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: auto auto;
+    text-align: center;
+}
+#min {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: white;
+}
+/* Min Section Close */
+
+/* For Sec Section */
+.sec-wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    border: 2px solid #2B2C2B;
+    border-radius: 6px;
+    height: 100px;
+    width: 120px;
+    align-content: center;
+    color: #178943;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: auto auto;
+    text-align: center;
+}
+#sec {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #178943;
+}
+/* Sec Section Close */
+
+
+/* button {
     position: relative;
     left: 90em;
     top: 25em;
-    /* font-size: 2px; */
+    font-size: 2px;
     padding: 20px;
     border-radius: 20px;
     background-color: #17b017;
     text-align: center;
     font-weight: 1000;
     color: #ffffffd7;
-    /* box-shadow: 5px 5px 5px 2px #ffffffd7 inset; */
+    box-shadow: 5px 5px 5px 2px #ffffffd7 inset;
     box-shadow: 2px 4px 5px 2px #4fcc48d7;
 
-}
+} */
