@@ -43,6 +43,16 @@ function countDown() {
 
     let sec = Math.floor((subtract % (1000 * 60)) / (1000));
     document.getElementById("sec").innerHTML = sec ;
+
+    if(subtract< 0){
+   
+      document.getElementById("main").innerHTML="Expired"
+
+    }
+
+
   }, 1000);
 }
+
+
 countDown();
