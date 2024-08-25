@@ -45,7 +45,7 @@ function countDown() {
     document.getElementById("sec").innerHTML = sec ;
 
     if(subtract< 0){
-   
+   clearInterval(date)
       document.getElementById("main").innerHTML="Expired"
 
     }
